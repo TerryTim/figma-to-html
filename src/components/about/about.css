@@ -1,0 +1,147 @@
+.about {
+    background-color: #fff;
+}
+
+.about__wrapping {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__info {
+    margin-top: 160px;
+    width: 540px;
+    height: 204px;
+}
+
+.about__info-title h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.about__info-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--secondary-color);
+}
+
+.about__info-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.about__info-box_items {
+    width: 255px;
+    z-index: 1;
+}
+
+.about__info-box_items h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--primary-color);
+    margin: 14px 30px 6px 0;
+    z-index: 1;
+}
+
+.about__info-box_items p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--secondary-color);
+    z-index: 1;
+}
+
+.about__image {
+    /* width: 540px; */
+    margin-top: 109px;
+
+}
+
+.about__image img {
+    width: 100%;
+    /* margin: 109px 165px 108px 30px; */
+}
+
+@media screen and (max-width: 1350px) {
+    .about__wrapping {
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .about__wrapping {
+        flex-direction: column;
+        margin: 0 4rem;
+    }
+
+    .about__info {
+        width: 100%;
+    }
+
+    .about__info-title h2, p {
+        text-align: center;
+    }
+
+    .about__info-box_items p {
+        text-align: start;
+        padding: 0;
+    }
+
+    .about__image {
+        text-align: center;
+    }
+
+    .about__image img {
+        width: 60%;
+        margin: 140px 0 108px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__wrapping {
+        align-items: center;
+    }
+    
+    .about__info-title h2 {
+        text-align: center;
+    }
+
+    .about__info-box {
+        margin-top: 40px;
+    }
+
+    .about__image img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .service__info {
+        width: 100%;
+    }
+
+    .about__info-title h2 {
+        font-size: 26px;
+        line-height: 48px;
+    }
+    
+    .about__info-content p {
+        padding: 0;
+    }
+
+    .about__info-box_items h3 {
+        font-size: 14px;
+    }
+
+    .about__image img {
+        width: 100%;
+        margin-top: 280px;
+    }
+}

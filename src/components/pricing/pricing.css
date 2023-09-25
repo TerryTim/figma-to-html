@@ -1,0 +1,91 @@
+.pricing {
+    background-color: var(--background-color);
+    height: 933.68px;
+    margin-top: -4rem;
+    padding: 14rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.pricing__info {
+    width: 600px;
+    text-align: center;
+}
+
+.pricing__info h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: var(--primary-color);
+}
+
+.pricing__info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--secondary-color);
+}
+
+.pricing__price {
+    margin-top: 36px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.pricing__price-number {
+    display: block;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+}
+
+.pricing__price-title {
+    color: var(--secondary-color);
+}
+
+.pricing__simple {
+    text-align: center;
+}
+
+.pricing__simple p {
+    text-align: center;
+}
+
+.pricing__simple-btn {
+    display: inline-block;
+    text-decoration: none;
+    
+    color: #fff;
+    background-color: var(--primary-color);
+    width: 189px;
+    height: 32px;
+    border-radius: 2px;
+    padding: 6px 40px;
+    margin-top: 9px;
+}
+
+@media screen and (max-width: 768px) {
+    .pricing {
+        /* height: 800px; */
+    }
+    .pricing__info {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pricing__info h2, p {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .pricing__info h2 {
+        font-size: 26px;
+        padding: 0;
+    }
+}

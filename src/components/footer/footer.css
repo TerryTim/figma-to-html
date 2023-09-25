@@ -1,0 +1,133 @@
+footer {
+    background-color: #d6dfff;
+    height: 216px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    border-bottom: 1px solid #CDD1D4;
+    align-items: center;
+}
+
+.footer__top h2 {
+    color: var(--primary-color);
+}
+
+.footer__top-purchase {
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    width: 189px;
+    height: 32px;
+    border-radius: 2px;
+    padding: 6px 40px;
+    margin-top: 9px;
+}
+
+.footer__top p {
+    padding: 0;
+    margin: 0;
+}
+
+.footer__bottom {
+    display: flex;
+    height: 76px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__bottom-menu {
+    display: flex;
+    list-style: none;
+}
+
+.footer__bottom-menu li {
+    margin-right: 60px;
+}
+
+.footer__bottom-menu li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.footer__bottom-social {
+    list-style: none;
+}
+
+.footer__bottom-social li a {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+    footer {
+        height: auto;
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        height: auto;
+        padding: 20px 20px;
+    }
+
+    .footer__top {
+        height: 100px;
+    }
+
+    .footer__bottom {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__bottom {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    
+
+    .footer__bottom-menu li {
+        margin: 0 20px;
+
+    }
+
+    .footer__bottom-social {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer__top {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footer__top p {
+        font-size: 12px;
+    }
+    
+    .footer__top h2 {
+        font-size: 20px;
+    }
+
+
+    .footer__top-purchase {
+        width: 100px;
+        font-size: 14px;
+        padding-right: 0;
+        padding-left: 0;
+
+    }
+}
